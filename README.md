@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure is the idea of what data is inherited from child to parent and what is accessible outside the function
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +65,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+closure is used on line 51, because it returns a function that uses the parameter from its parent.
 
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the return will always a new dice roll. It will also always have the parameter of dan.
+
+c. What is the lexical scope of `newRoll`? 
+its a private variable of personalDice's return function
 
 ### Task 3 - Stretch Goals
 
